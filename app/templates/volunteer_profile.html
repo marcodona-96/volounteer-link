@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Create Your Volunteer Profile</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <label>{{ form.name.label }}</label> {{ form.name() }}
+        <label>{{ form.email.label }}</label> {{ form.email() }}
+        <label>{{ form.interests.label }}</label> {{ form.interests() }}
+        <label>{{ form.availability.label }}</label> {{ form.availability() }}
+        {{ form.submit() }}
+    </form>
+{% endblock %}

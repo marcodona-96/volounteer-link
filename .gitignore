@@ -1,0 +1,18 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore virtual environment folder (if using virtualenv)
+venv/
+
+# Ignore .env file with sensitive environment variables
+.env
+
+# Ignore Flask instance folder (if created)
+instance/
+
+# Ignore SQLite database file
+app.db
+
+# Ignore IDE-specific files (if using PyCharm, VSCode, etc.)
+.idea/
+.vscode/

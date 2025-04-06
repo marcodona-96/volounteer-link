@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Create Your Association Profile</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <label>{{ form.name.label }}</label> {{ form.name() }}
+        <label>{{ form.email.label }}</label> {{ form.email() }}
+        <label>{{ form.mission.label }}</label> {{ form.mission() }}
+        <label>{{ form.needs.label }}</label> {{ form.needs() }}
+        {{ form.submit() }}
+    </form>
+{% endblock %}

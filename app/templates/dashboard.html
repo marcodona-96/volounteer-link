@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Welcome, {{ current_user.username }}!</h2>
+    <p>Manage your profiles and view your volunteering opportunities here.</p>
+    <div class="navbar">
+        <a href="{{ url_for('main.volunteer_profile') }}">Volunteer Profile</a>
+        <a href="{{ url_for('main.association_profile') }}">Association Profile</a>
+    </div>
+{% endblock %}
