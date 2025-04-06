@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/volunteerlink.git
+git clone https://github.com/marcodona-96/volounteer-link
 
 2. Navigate into the project folder:
 
